@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">TSShara Unofficial App</string>
+
+    <!-- Navigation -->
+    <string name="nav_status">Status</string>
+    <string name="nav_settings">Configurações</string>
+    <string name="nav_about">Sobre</string>
+
+    <!-- Status Screen -->
+    <string name="status_title">Status do Nobreak</string>
+    <string name="status_ok">OK</string>
+    <string name="status_power_fail">NA BATERIA</string>
+    <string name="status_battery_low">BATERIA BAIXA</string>
+    <string name="status_test">EM TESTE</string>
+    <string name="status_unknown">DESCONHECIDO</string>
+    <string name="status_no_data">Nenhum dado disponível ainda</string>
+    <string name="status_error">Erro de conexão</string>
+    <string name="status_error_api">Nobreak não encontrado</string>
+    <string name="status_error_api_conn_ok">Conexão OK</string>
+    <string name="status_loading">Carregando…</string>
+    <string name="status_last_update">Última atualização: %1$s</string>
+    <string name="status_refresh">Atualizar</string>
+    <string name="status_not_configured">Nenhum dispositivo configurado.\nVá em Configurações para adicionar um nobreak.</string>
+    <string name="status_select_device">Selecionar dispositivo</string>
+
+    <!-- Status Fields -->
+    <string name="field_input_voltage">Tensão de Entrada</string>
+    <string name="field_output_voltage">Tensão de Saída</string>
+    <string name="field_input_fault_voltage">Tensão de Falha</string>
+    <string name="field_current">Corrente</string>
+    <string name="field_frequency">Frequência</string>
+    <string name="field_battery">Bateria</string>
+    <string name="field_temperature">Temperatura</string>
+    <string name="field_utility_fail">Na Bateria</string>
+    <string name="field_battery_low">Bateria Baixa</string>
+    <string name="field_bypass_mode">Modo Bypass</string>
+    <string name="field_ups_failed">Nobreak com Falha</string>
+    <string name="field_ups_standby">Nobreak em Standby</string>
+    <string name="field_test_in_progress">Teste em Andamento</string>
+    <string name="field_shutdown_active">Desligamento Ativo</string>
+    <string name="field_beep_on">Beep Ativo</string>
+    <string name="flag_yes">Sim</string>
+    <string name="flag_no">Não</string>
+    <string name="unit_volts">%1$.1f V</string>
+    <string name="unit_amps">%1$.1f A</string>
+    <string name="unit_hz">%1$.1f Hz</string>
+    <string name="unit_celsius">%1$.1f °C</string>
+
+    <!-- Tests -->
+    <string name="tests_title">Testes do Nobreak</string>
+    <string name="test_10s">Teste 10s</string>
+    <string name="test_low">Teste até Bateria Baixa</string>
+    <!-- Queries & Beep -->
+    <string name="queries_title">Consultas &amp; Beep</string>
+    <string name="test_beep">Alternar Beep</string>
+    <string name="test_status">Consultar Status</string>
+    <string name="test_firmware">Consultar Firmware</string>
+    <string name="beep_status">Status do Beep</string>
+    <string name="beep_on">Ativado</string>
+    <string name="beep_off">Desativado</string>
+    <string name="beep_enable">Ativar Beep</string>
+    <string name="beep_disable">Desativar Beep</string>
+    <string name="test_sent">Comando de teste enviado!</string>
+    <string name="test_failed">Teste falhou: %1$s</string>
+    <string name="test_confirm_title">Confirmar Teste</string>
+    <string name="test_confirm_message">Enviar comando \"%1$s\" para %2$s?</string>
+
+    <!-- Health Screen -->
+    <string name="health_title">Saúde do Serviço</string>
+    <string name="health_monitoring">Monitoramento</string>
+    <string name="health_active">Ativo</string>
+    <string name="health_inactive">Inativo</string>
+    <string name="health_uptime">Tempo Ativo</string>
+    <string name="health_version">Versão</string>
+    <string name="health_failures">Falhas Consecutivas</string>
+    <string name="health_poll_interval">Intervalo de Polling</string>
+    <string name="health_seconds">%1$d s</string>
+    <string name="health_serial_port">Porta Serial</string>
+
+    <!-- Info Screen -->
+    <string name="info_title">Informações do Dispositivo</string>
+    <string name="info_hardware_id">ID do Hardware</string>
+    <string name="info_hostname">Nome do Host</string>
+    <string name="info_platform">Plataforma</string>
+    <string name="info_serial_available">Serial Disponível</string>
+    <string name="info_ports">Portas Seriais</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Configurações</string>
+    <string name="settings_devices">Dispositivos UPS</string>
+    <string name="settings_add_device">Adicionar Dispositivo</string>
+    <string name="settings_edit_device">Editar Dispositivo</string>
+    <string name="settings_delete_device">Excluir Dispositivo</string>
+    <string name="settings_delete_confirm">Excluir \"%1$s\"? Esta ação não pode ser desfeita.</string>
+    <string name="settings_no_devices">Nenhum dispositivo adicionado.\nToque em + para adicionar seu primeiro nobreak.</string>
+    <string name="settings_devices_hint">A porta da API deve estar acessível pela rede/internet. Verifique se as portas estão abertas no seu firewall/roteador.</string>
+    <string name="settings_device_name">Nome do Dispositivo</string>
+    <string name="settings_device_name_hint">ex: Nobreak do Escritório</string>
+    <string name="settings_connection">Conexão</string>
+    <string name="settings_server_host">Endereço do Servidor</string>
+    <string name="settings_server_host_hint">ex: 192.168.1.100</string>
+    <string name="settings_server_port">Porta</string>
+    <string name="settings_server_port_hint">ex: 8080</string>
+    <string name="settings_use_https">Usar HTTPS</string>
+    <string name="settings_use_auth">Utilizar Autenticação</string>
+    <string name="settings_auth">Autenticação</string>
+    <string name="settings_username">Usuário</string>
+    <string name="settings_username_hint">Usuário da autenticação básica</string>
+    <string name="settings_password">Senha</string>
+    <string name="settings_password_hint">Senha da autenticação básica</string>
+    <string name="settings_monitoring">Monitoramento</string>
+    <string name="settings_enable_monitoring">Monitoramento em Segundo Plano</string>
+    <string name="settings_enable_monitoring_desc">Verificar status do nobreak periodicamente e notificar sobre problemas</string>
+    <string name="settings_poll_interval">Intervalo (segundos)</string>
+    <string name="settings_poll_interval_hint">5</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_language_system">Padrão do Sistema</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_pt_br">Português (BR)</string>
+    <string name="settings_save">Salvar</string>
+    <string name="settings_saved">Configurações salvas</string>
+    <string name="settings_test_connection">Testar Conexão</string>
+    <string name="settings_test_success">Conexão bem-sucedida!</string>
+    <string name="settings_test_fail">Falha na conexão: %1$s</string>
+    <string name="settings_test_notification">Testar Notificação</string>
+    <string name="settings_test_notification_desc">Enviar uma notificação de teste para verificar</string>
+    <string name="settings_test_notification_sent">Notificação de teste enviada!</string>
+    <string name="settings_notif_types">Tipos de Notificação</string>
+    <string name="settings_notif_types_desc">Escolha quais notificações receber</string>
+    <string name="settings_notif_power_fail">⚡ Na Bateria</string>
+    <string name="settings_notif_battery_low">🔋 Bateria Baixa</string>
+    <string name="settings_notif_ups_failed">❌ Falha no Nobreak</string>
+    <string name="settings_notif_power_restored">✅ Energia Restaurada</string>
+    <string name="settings_notif_connection_error">⚠️ Erro de Conexão</string>
+    <string name="settings_notif_connection_restored">✅ Conexão Restaurada</string>
+    <string name="settings_notif_test_running">🔄 Teste em Andamento</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Alertas do Nobreak</string>
+    <string name="notif_channel_desc">Notificações sobre mudanças no status do nobreak</string>
+    <string name="notif_monitor_channel_name">Serviço de Monitoramento</string>
+    <string name="notif_monitor_channel_desc">Notificação persistente enquanto o monitoramento está ativo</string>
+    <string name="notif_monitor_title">Monitoramento Ativo</string>
+    <string name="notif_monitor_body">Monitorando seus nobreaks em segundo plano</string>
+    <string name="notif_monitor_title_no_internet">Monitoramento — Sem Internet</string>
+    <string name="notif_monitor_body_no_internet">Aguardando conexão com a internet para retomar o monitoramento</string>
+    <string name="notif_power_fail_title">⚡ Na Bateria</string>
+    <string name="notif_power_fail_body">%1$s: Operando na bateria!</string>
+    <string name="notif_battery_low_title">🔋 Bateria Baixa</string>
+    <string name="notif_battery_low_body">%1$s: Bateria está baixa! Bateria: %2$.1f V</string>
+    <string name="notif_ups_failed_title">❌ Falha no Nobreak</string>
+    <string name="notif_ups_failed_body">%1$s: Falha de hardware detectada!</string>
+    <string name="notif_power_restored_title">✅ Energia Restaurada</string>
+    <string name="notif_power_restored_body">%1$s: A energia da rede foi restaurada.</string>
+    <string name="notif_test_title">🔔 Notificação de Teste</string>
+    <string name="notif_test_body">As notificações do TSShara estão funcionando corretamente.</string>
+    <string name="notif_connection_error_title">⚠️ Erro de Conexão</string>
+    <string name="notif_connection_error_body">%1$s: Não foi possível conectar ao servidor. Verifique as configurações.</string>
+    <string name="notif_connection_restored_title">✅ Conexão Restaurada</string>
+    <string name="notif_connection_restored_body">%1$s: A conexão com o servidor foi restaurada.</string>
+    <string name="notif_test_running_title">🔄 Teste em Andamento</string>
+    <string name="notif_test_running_body">%1$s: Teste de bateria em execução.</string>
+
+    <!-- Permissions -->
+    <string name="permission_notifications_title">Notificações</string>
+    <string name="permission_notifications_rationale">As notificações são necessárias para alertá-lo sobre falhas de energia e bateria baixa do nobreak, mesmo quando o app estiver fechado.</string>
+    <string name="permission_grant">Permitir</string>
+    <string name="permission_deny">Agora não</string>
+
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Excluir</string>
+    <string name="error">Erro</string>
+    <string name="save">Salvar</string>
+
+    <!-- About -->
+    <string name="about">Sobre</string>
+    <string name="about_title">Sobre o TSShara Unofficial App</string>
+    <string name="about_version">Versão %1$s</string>
+    <string name="about_description">Este app se conecta ao serviço TSShara CLI rodando no seu computador para ler dados em tempo real do seu nobreak TS Shara via API REST.
+Monitore tensão, bateria, status e execute testes de qualquer lugar na sua rede/internet.</string>
+    <string name="about_developer">Desenvolvedor</string>
+    <string name="about_developer_name">Iohann Tachy</string>
+    <string name="about_license">Licença</string>
+    <string name="about_license_text">Código Aberto - Apache 2.0</string>
+    <string name="about_license_dialog_title">Licença Apache 2.0</string>
+    <string name="about_license_close">Fechar</string>
+    <string name="about_tested_models">Nobreaks Homologados</string>
+    <string name="about_tested_models_list">• TS Shara UPS Professional 2200VA</string>
+    <string name="about_compatibility">Possui outro modelo de nobreak TS Shara? Nos informe se funcionou ou não — seu feedback ajuda a expandir a compatibilidade para todos.</string>
+    <string name="about_contact">Contato</string>
+    <string name="about_contact_email">iohann.tachy@gmail.com</string>
+</resources>
